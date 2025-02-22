@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+  </div>
+
+  <!-- Background 3D Particles -->
+  <div id="particles-js"></div>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="content">
+      <h1 id="typewriter-text">Hello! I'm Hitesh Bopche</h1>
+      <p class="intro">I'm a passionate Full Stack Developer skilled in both front-end and back-end technologies .</p>
+      <a href="/public/assets/pdf/resume.pdf" download class="btn">Download Resume</a>
+    </div>
+    <div class="social-icons">
+      <a href="https://github.com/hitesh0406" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/hiteshbopche/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="content">
+      <h2>About Me</h2>
+      <p class="about-text">Hello! I'm Hitesh Bopche, a passionate Full Stack Developer with a robust foundation in both front-end and back-end technologies. Currently a final-year B.Tech student in Computer Science and Engineering at Parul University, I excel in JavaScript, HTML, CSS, React, Node.js, Python, and SQL. With hands-on experience from my internship at Brainy-Beams Ltd. and active participation in hackathons, I continually strive to enhance my technical skills and build innovative web solutions. Eager to start my career as a Full_Stack Developer developer, I am committed to contributing to impactful projects and advancing in the tech industry.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <div class="content">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">
+          <i class="fas fa-code"></i>
+          <h3>Front-End Development</h3>
+          <p>Crafting responsive and visually engaging user interfaces using modern technologies like HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-database"></i>
+          <h3>Back-End Development</h3>
+          <p>Building robust and scalable server-side applications with technologies like Node.js, Express.js, and SQL.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Full-Stack Solutions</h3>
+          <p>Delivering comprehensive web development solutions that seamlessly integrate front-end and back-end technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="content">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <h3 class="skill">Front-End Dev.</h3>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Bootstrap</div>
+        <div class="skill">Responsive Design</div>
+        <h3 class="skill">Back-End Dev.</h3>
+        <div class="skill">Node.js</div>
+        <div class="skill">Express.js</div>
+        <div class="skill">Django</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">MongoDB</div>
+        <h3 class="skill">Dev Tools</h3>
+        <div class="skill">Git</div>
+        <div class="skill">GitHub</div>
+        <div class="skill">Visual Studio Code</div>
+        <div class="skill">npm</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="content">
+      <h2>Contact Me</h2>
+      <form id="contactForm" action=""  role="form" method="post">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="confirmation-message" style="display: none;">
+        Your message has been sent successfully!
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy;Thank you for visiting my portfolio.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
