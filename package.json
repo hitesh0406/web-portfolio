@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "start": "node index.js", 
+    "server": "nodemon index.js", 
+    "build": "echo 'No build step required'" 
   },
   "keywords": [],
   "author": "",
@@ -14,7 +16,9 @@
     "body-parser": "^1.20.3",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
-    "mongoose": "^8.10.1",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
